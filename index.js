@@ -34,6 +34,10 @@ client.on('message', (message) => {
     return message.reply('`저도 즐거워요! 우후~`');
   }
 
+  if(message.content == '슬기로운 인사해') {
+    return message.reply('님도 다른분들도 다 안녕하세요!');
+  }
+
 
   if(message.content == '슬기로운 봇') {
     return message.reply('님 네! 왜요?');
