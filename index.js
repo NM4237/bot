@@ -117,6 +117,20 @@ client.on('message', (message) => {
     return message.reply('너 찌 나 묵 너짐 ㅋ');
   }
 
+  if(message.content == '슬기로운 MEE6') {
+    return message.reply('MEE6? 우리 대장!');
+  }
+
+  if(message.content == '슬기로운 마냥') {
+    return message.reply('`야용!`');
+  }
+
+  if(message.content == '슬기로운 배추봇') {
+    return message.reply('```겨울이봇 ㅎ```');
+  }
+
+
+
   if(message.content == '슬기로운 엔엠') {
     return message.reply('아빠?..');
   }
@@ -146,7 +160,7 @@ client.on('message', (message) => {
   }
 
   if(message.content == '슬기로운 재민') {
-    return message.reply('재민은 Wls일 뿐');
+    return message.reply('재민은 재민입니다.');
   }
 
   if(message.content == '슬기로운 야생') {
