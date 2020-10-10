@@ -6,7 +6,7 @@ require("moment-duration-format");
 const welcomeChannelName = "안녕하세요";
 const byeChannelName = "안녕히가세요";
 const welcomeChannelComment = "님 슬기로운패밀리에 오신것을 환영합니다.";
-const byeChannelComment = "님 슬기로운패밀리를 떠나셨습니다.안녕히가세요.";
+const byeChannelComment = "님 슬기로운패밀리를 떠나셨습니다;안녕히가세요.";
 
 client.on('ready', () => {
   console.log('실행완료');
