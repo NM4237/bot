@@ -5,12 +5,12 @@ const moment = require("moment");
 require("moment-duration-format");
 const welcomeChannelName = "안녕하세요";
 const byeChannelName = "안녕히가세요";
-const welcomeChannelComment = "님 슬기로운패밀리에 오신것을 환영합니다.";
-const byeChannelComment = "님 슬기로운패밀리를 떠나셨습니다;안녕히가세요.";
+const welcomeChannelComment = "님 께서 들어오셨습니다.";
+const byeChannelComment = "님 께서 나가셨습니다.";
 
 client.on('ready', () => {
   console.log('실행완료');
-  client.user.setPresence({ game: { name: '/help 명령어를 입력해주세요!   슬기로운 로보트생활' }, status: 'online' })
+  client.user.setPresence({ game: { name: 'https://discord.gg/UbUrxUY' }, status: 'online' })
 });
 
 client.on("guildMemberAdd", (member) => {
@@ -34,7 +34,7 @@ client.on("guildMemberRemove", (member) => {
 client.on('message', (message) => {
   if(message.author.bot) return;
 
-  if(message.content == '/안내대기방') {
+  if(message.content == 'ㅇwreete3ygewsfveryhgrethegreyrtutyujtyhergerht') {
     return message.reply('https://discord.gg/Ga2aURm');
   }
 
@@ -69,7 +69,7 @@ client.on('message', (message) => {
     message.channel.send(embed);
   }
 
-  if(message.content == '/help 명령어') {
+  if(message.content == 'efgerghevfrgyhehygergfreyrtyghregfwe') {
     let img = '';
     let embed = new Discord.RichEmbed()
       .setTitle('')
@@ -87,7 +87,7 @@ client.on('message', (message) => {
       .setFooter('')
 
     message.channel.send(embed)
-  } else if(message.content == '!help') {
+  } else if(message.content == 'wefwereyhergfeqrfewyregvdscfrygthy') {
     let helpImg = 'https://images-ext-1.discordapp.net/external/RyofVqSAVAi0H9-1yK6M8NGy2grU5TWZkLadG-rwqk0/https/i.imgur.com/EZRAPxR.png';
     let commandList = [
       {name: '/help 명령어', desc: '사용가능한 명령어리스트를 보여줍니다.'},
@@ -123,7 +123,7 @@ client.on('message', (message) => {
           }
         })
     });
-  } else if(message.content == 'sdsdswreetesgregeeryhethbfgb') {
+  } else if(message.content == 'sdsdswreetesgregeeryhethbddddddddddddddddddddddddddddddddddddddddddsfgb') {
     if(message.channel.type == 'dm') {
       return message.reply('dm에서 사용할 수 없는 명령어 입니다.');
     }
